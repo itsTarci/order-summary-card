@@ -8,11 +8,14 @@ body {
   padding: 20px;
   font-size: 17px;
   overflow: hidden;
+  z-index: -1;
+  user-select: none;
+  background: url(../images/pattern-background-desktop.svg) repeat-x center top;
 }
 
 .order-summary-card section {
-  background: var(--very-pale-blue);
   max-width: 450px;
+  background: var(--very-pale-blue);
   display: flex;
   align-items: center;
   flex-direction: column;
