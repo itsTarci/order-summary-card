@@ -1,7 +1,6 @@
 body {
   min-width: 100vw;
   min-height: 100vh;
-  background: var(--pale-blue);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +9,8 @@ body {
   overflow: hidden;
   z-index: -1;
   user-select: none;
-  background: url(../images/pattern-background-desktop.svg) repeat-x center top;
+  background: var(--pale-blue) url(../images/pattern-background-desktop.svg)
+    repeat-x center top;
 }
 
 .order-summary-card section {

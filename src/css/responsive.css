@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  body {
+    background: var(--pale-blue) url(../images/pattern-background-mobile.svg)
+      repeat-x left top;
+  }
+}
+
 @media (max-width: 400px) {
   .order-summary-card {
     max-width: 330px;
