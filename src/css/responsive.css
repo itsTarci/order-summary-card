@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+  .order-summary-card {
+    max-width: 330px;
+    font-size: 20px;
+  }
+  .order-summary-card:hover {
+    transform: none;
+  }
+  #cancel-order-button {
+    margin: 8px 0 20px 0;
+  }
+}

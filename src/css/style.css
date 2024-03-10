@@ -1,0 +1,110 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.order-summary-card section {
+  background: var(--very-pale-blue);
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+}
+.order-summary-card:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.3s;
+}
+.order-summary-card section img {
+  display: block;
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.order-summary-card section .card-title {
+  font-weight: 900;
+}
+.order-summary-card section .title {
+  margin: 50px 0 25px 0;
+  font-size: 27px;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.order-summary-card section .description {
+  color: var(--desaturated-blue);
+}
+
+.order-summary-card section .main-text {
+  text-align: center;
+  padding: 0 40px;
+  margin-bottom: 25px;
+}
+
+.order-summary-card section .card-plan-price img {
+  display: block;
+  width: 48px;
+  margin-right: 15px;
+}
+
+.order-summary-card section .card-plan-price {
+  width: 390px;
+  margin: 15px 0;
+  padding: 20px 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f5fe;
+}
+
+.order-summary-card section .card-plan-price .plan-price {
+  display: flex;
+  align-items: center;
+}
+
+#plan-change-button {
+  color: var(--bright-blue);
+  font-weight: 700;
+  transition: all ease-in 0.3s;
+}
+#plan-change-button:hover {
+  color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+#payment-button {
+  border: none;
+  color: var(--pale-blue);
+  background: var(--bright-blue);
+  cursor: pointer;
+  box-shadow: 10px 10px 20px var(--desaturated-blue);
+  width: 80%;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 25px 0;
+  font-weight: 700;
+  transition: background ease-in-out 0.3s;
+}
+#payment-button:hover {
+  background: var(--payment-button);
+}
+
+#cancel-order-button {
+  text-decoration: none;
+  font-weight: 900;
+  margin: 25px 0;
+  transition: color ease-in 0.3s;
+}
+
+#cancel-order-button:hover {
+  color: var(--dark-blue);
+}
